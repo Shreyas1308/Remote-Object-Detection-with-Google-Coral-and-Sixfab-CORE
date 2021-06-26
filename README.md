@@ -22,3 +22,27 @@ Note: The top cover is not used. You can use it if you want.
 8. Now connect the USB Accelerator to your Raspberry Pi using the USB cable.
 
 9. Finally, power up the Raspberry Pi.
+
+##Software Setup Instructions
+1. Complete the Sixfab CORE installation.
+In my previous project, I explained how to install [Sixfab CORE](https://sixfab.com/sixfab-core/). Click on the link below and follow the installation steps there.[Raspberry Pi Cellular Connection using Sixfab CORE](https://www.hackster.io/ensarkarabudak/raspberry-pi-cellular-connection-using-sixfab-core-845f52)
+
+2. Setting up the camera software
+Now you need to enable camera support using the raspi-config program you will have used when you first set up your Raspberry Pi.Use the cursor keys to select and open Interfacing Options, and then select Camera and follow the prompt to enable the camera.
+
+3. Setting up the Coral USB Accelerator
+Follow Google's [installation Guide](https://coral.ai/docs/accelerator/get-started/) to setting up the Coral USB Accelerator.Login to Sixfab CORE and open 'remote terminal' after making sure your device's cellular connection.Change to the /home/pi directory.
+
+Download the code from GitHub:
+mkdir coral && cd coral
+
+git clone https://github.com/google-coral/pycoral.git
+
+cd pycoral
+
+Download the model and labels:
+
+bash examples/install_requirements.sh detect_image.py
+Take the photo.
+
+sudo raspistill -o image.jpg
