@@ -33,7 +33,8 @@ Now you need to enable camera support using the raspi-config program you will ha
 3. Setting up the Coral USB Accelerator
 Follow Google's [installation Guide](https://coral.ai/docs/accelerator/get-started/) to setting up the Coral USB Accelerator.Login to Sixfab CORE and open 'remote terminal' after making sure your device's cellular connection.Change to the /home/pi directory.
 
-Download the code from GitHub://
+Download the code from GitHub:
+
 mkdir coral && cd coral
 
 git clone https://github.com/google-coral/pycoral.git
