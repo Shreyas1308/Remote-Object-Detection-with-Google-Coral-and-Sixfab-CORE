@@ -22,7 +22,6 @@ Note: The top cover is not used. You can use it if you want.
 8. Now connect the USB Accelerator to your Raspberry Pi using the USB cable.
 
 9. Finally, power up the Raspberry Pi.
-
 ##Software Setup Instructions
 1. Complete the Sixfab CORE installation.
 In my previous project, I explained how to install [Sixfab CORE](https://sixfab.com/sixfab-core/). Click on the link below and follow the installation steps there.[Raspberry Pi Cellular Connection using Sixfab CORE](https://www.hackster.io/ensarkarabudak/raspberry-pi-cellular-connection-using-sixfab-core-845f52)
