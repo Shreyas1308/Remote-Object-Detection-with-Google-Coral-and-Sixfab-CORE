@@ -47,3 +47,13 @@ bash examples/install_requirements.sh detect_image.py
 Take the photo.
 
 sudo raspistill -o image.jpg
+>**Troubleshooting**
+ If you don't run the command with 'sudo' you may get the following error. One solution is to run it with sudo.* failed to open vchiq instance
+4. Run the image detector with the photo.
+
+python3 examples/detect_image.py \
+--model test_data/ssd_mobilenet_v2_coco_quant_postprocess_edgetpu.tflite \
+--labels test_data/coco_labels.txt \
+--input image.jpg
+You should see results like this:
+![ensar_XWlfBBQyVd](https://user-images.githubusercontent.com/56815931/123520960-3fb0ea80-d6d1-11eb-84fb-e545fdd16b65.jpg)
