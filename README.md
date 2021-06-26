@@ -58,3 +58,5 @@ python3 examples/detect_image.py \
 
 5. You should see results like this:
 ![ensar_XWlfBBQyVd](https://user-images.githubusercontent.com/56815931/123520960-3fb0ea80-d6d1-11eb-84fb-e545fdd16b65.jpg)
+
+# Congrats!
