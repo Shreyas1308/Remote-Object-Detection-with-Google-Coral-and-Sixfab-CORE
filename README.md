@@ -1,7 +1,7 @@
-# Remote-Object-Detection-with-Google-Coral-and-Sixfab-CORE
+# ❄️ Remote-Object-Detection-with-Google-Coral-and-Sixfab-CORE ❄️
 In this project, we will perform object detection with Coral on the picture we took on the Raspberry Pi, which we provide cellular connection, and we will do all of these operations remotely and quickly.
 
-Ready? Let's get started! 🚀
+Ready? Let's get started! 🚀 :raised_hands: 
 ## Hardware setup
 Here's how and what you're ging to build:
 1. Attach the [Telit LE910C1 mini PCIe](https://sixfab.com/product/telit-le910c1-mini-pcie-cat1-lte-module/)(or compatible modules) module to the HAT.
